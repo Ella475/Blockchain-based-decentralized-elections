@@ -12,6 +12,7 @@
   "author": "Ella Shalom",
   "license": "ISC",
   "dependencies": {
+    "openzeppelin-solidity": "^2.1.1",
     "truffle-hdwallet-provider": "^1.0.17"
   }
 }
