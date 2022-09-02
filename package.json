@@ -10,5 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ella Shalom",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
 }
