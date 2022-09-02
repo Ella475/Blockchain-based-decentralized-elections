@@ -1,7 +1,6 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { Drizzle, generateStore } from '@drizzle/store';
-import { BackgroundScreen, Gif } from './GlobalStyle';
+import App from './App';
 
-const mainElement = <BackgroundScreen main><Gif></Gif></BackgroundScreen>;
-ReactDOM.render(mainElement, document.getElementById('root'));
+
+ReactDOM.render(<App />, document.getElementById('root'));
