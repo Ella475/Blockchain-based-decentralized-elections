@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import { Drizzle, generateStore } from 'drizzle';
+import { Drizzle, generateStore } from '@drizzle/store';
 import { BackgroundScreen, Gif } from './GlobalStyle';
 
 const mainElement = <BackgroundScreen main><Gif></Gif></BackgroundScreen>;
